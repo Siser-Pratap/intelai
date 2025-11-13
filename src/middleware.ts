@@ -15,7 +15,6 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/user/chats', request.url));
   }
 
-  // added multiple test
   return NextResponse.next();
 
 }
